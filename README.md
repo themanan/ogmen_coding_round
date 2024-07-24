@@ -23,6 +23,8 @@ To visualize the robot in RViz, use the `rviz.launch` file:
 ```sh
 ros2 launch bot_description rviz.launch
 ```
+NOTE: IT WILL SHOW ROBOT TF AND CHASSIS ONLY. IF YOU WISH TO SEE LASER SCAN AND CAMERA FEED IN RVIZ, PLEASE CHANGE THE RVIZ FILE WITH THE FILES AVAILABLE IN bot_description->rviz
+
 ### Gazebo Simulation without world
 
 To spawn the robot in an empty Gazebo world, use the spawn.launch file:
